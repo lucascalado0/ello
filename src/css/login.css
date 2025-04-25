@@ -1,7 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
-    background: #E8EDFC;
+    background: #FFFFFF;
+    margin: 15px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav > a {
+    text-decoration: none;
+}
+
+.nav > img {
+    padding-right: 1050px;
 }
 
 
